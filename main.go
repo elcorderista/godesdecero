@@ -1,7 +1,13 @@
 package main
 
-import "github.com/elcorderista/godesdecero/variables"
+import (
+	"fmt"
+
+	"github.com/elcorderista/godesdecero/variables"
+)
 
 func main() {
-	variables.MuestraEnteros()
+	estado, texto := variables.ConviertoTexto(1588)
+	fmt.Println(texto)
+	fmt.Println(estado)
 }
