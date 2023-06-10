@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"runtime"
 
-	"github.com/elcorderista/godesdecero/variables"
+	"github.com/elcorderista/godesdecero/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoTexto(1588)
+
+	/* estado, texto := variables.ConviertoTexto(1588)
 	fmt.Println(texto)
 	fmt.Println(estado)
 	if os := runtime.GOOS; os == "Linux." || os == "darwin" {
@@ -26,5 +26,10 @@ func main() {
 		fmt.Println("Esto es darwing")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	}*/
+
+	numero, texto := ejercicios.Ejercicio01Resuelto("101")
+	fmt.Println(numero)
+	fmt.Println(texto)
+
 }

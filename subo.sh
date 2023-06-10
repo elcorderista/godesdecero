@@ -1,3 +1,3 @@
 git add .
-git commit -m "Automatic Load 2"
+git commit -m "Automatic Load Ejercicio01"
 git push
