@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/elcorderista/godesdecero/ejercicios"
+	"github.com/elcorderista/godesdecero/iteraciones"
 )
 
 func main() {
@@ -26,10 +24,16 @@ func main() {
 		fmt.Println("Esto es darwing")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	numero, texto := ejercicios.Ejercicio01Resuelto("101")
 	fmt.Println(numero)
 	fmt.Println(texto)
 
+	teclado.IngresoNumeros()
+	*/
+
+	iteraciones.Iterar()
+	iteraciones.IterarReverso()
+	iteraciones.IterarSaltos()
 }
