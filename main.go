@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/elcorderista/godesdecero/iteraciones"
-)
+import "github.com/elcorderista/godesdecero/ejercicios"
 
 func main() {
 
@@ -31,9 +29,10 @@ func main() {
 	fmt.Println(texto)
 
 	teclado.IngresoNumeros()
-	*/
+
 
 	iteraciones.Iterar()
 	iteraciones.IterarReverso()
-	iteraciones.IterarSaltos()
+	iteraciones.IterarSaltos()*/
+	ejercicios.Multiplicar()
 }
