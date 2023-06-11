@@ -1,6 +1,8 @@
 package main
 
-import "github.com/elcorderista/godesdecero/ejercicios"
+import (
+	"github.com/elcorderista/godesdecero/files"
+)
 
 func main() {
 
@@ -33,6 +35,11 @@ func main() {
 
 	iteraciones.Iterar()
 	iteraciones.IterarReverso()
-	iteraciones.IterarSaltos()*/
-	ejercicios.Multiplicar()
+	iteraciones.IterarSaltos()
+	fmt.Println(ejercicios.Multiplicar())
+	files.GrabaTabla()
+
+	files.SumaTabla()*/
+
+	files.LeoFile()
 }
