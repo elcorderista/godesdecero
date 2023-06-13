@@ -41,7 +41,9 @@ func main() {
 
 	files.LeoFile()
 
-	funciones.Calculos()*/
+	funciones.Calculos()
 
-	funciones.LlamarClouser()
+	funciones.LlamarClouser()*/
+
+	funciones.Exponencia(2)
 }
