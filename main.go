@@ -1,6 +1,6 @@
 package main
 
-import "github.com/elcorderista/godesdecero/funciones"
+import "github.com/elcorderista/godesdecero/users"
 
 func main() {
 
@@ -43,7 +43,13 @@ func main() {
 
 	funciones.Calculos()
 
-	funciones.LlamarClouser()*/
+	funciones.LlamarClouser()
 
-	funciones.Exponencia(2)
+	funciones.Exponencia(2)*/
+
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestraSlice()
+	//arreglos_slices.Capacidad()
+	//mapas.MostrarMapas()
+	users.AltaUsuario()
 }
