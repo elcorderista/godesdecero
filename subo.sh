@@ -1,3 +1,3 @@
 git add .
-git commit -m "Automatic Load Structs"
+git commit -m "Automatic Load Fin Modulo 3"
 git push

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/elcorderista/godesdecero/users"
+import "github.com/elcorderista/godesdecero/middleware"
 
 func main() {
 
@@ -51,5 +51,18 @@ func main() {
 	//arreglos_slices.MuestraSlice()
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
-	users.AltaUsuario()
+	//users.AltaUsuario()
+	//defer_panic.VemosDefer()
+
+	//defer_panic.EjemploPanic()
+	//canal1 := make(chan bool)
+	//go goroutines.MiNombreLento("elcorderista Medrano", canal1)
+	//
+	//defer func() {
+	//	<-canal1
+	//}()
+
+	//We indicate wait for chanel 1 to terminate
+	//webserver.MiWebServer()
+	middleware.Middleware()
 }
